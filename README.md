@@ -4,9 +4,14 @@ Export YOLO-NAS models optimized for Frigate NVR with OpenVINO on Intel N100.
 
 ## Setup
 
-```bash
-pip install super-gradients==3.7.1
-```
+Use the included dev container with VS Code or GitHub Codespaces:
+
+1. Install [VS Code](https://code.visualstudio.com/) and the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+2. Open this folder in VS Code
+3. When prompted, click "Reopen in Container" (or run `Dev Containers: Reopen in Container` from the command palette)
+4. Wait for the container to build and setup to complete
+
+The container automatically installs Python 3.9, all dependencies, and applies necessary patches.
 
 ## Export Model
 
